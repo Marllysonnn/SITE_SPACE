@@ -5,6 +5,7 @@ body{
     height: 100%;
     height: fit-content;
     margin: 0;
+    padding: 0;
     display: contents;
     box-sizing: border-box;
 }
@@ -15,7 +16,7 @@ body{
     overflow-x: hidden;
     height: 100%; 
     width: 100%;
-    margin-bottom: -4px;
+    margin-bottom: -5px;
 }
 
 .header{
@@ -176,7 +177,7 @@ body{
 
 .container_mars{
     position: absolute;
-    top: 137%;
+    top: 134%;
     width: 50%;
     left: 50%;
     height: 110%;
@@ -191,6 +192,16 @@ body{
     padding: 30px;
 
     color: #FFFFFF;
+}
+.marcador1{
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    bottom: 140px;
+    left: 27%;
+    top: 30%;
+
+    background: white;
 }
 .mars{
     position: absolute;
@@ -234,7 +245,7 @@ body{
 }
 .num{
     position: absolute;
-    left: 10%;
+    left: 8%;
     top: 86%;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
@@ -256,7 +267,7 @@ body{
 }
 .distance{
     position: absolute;
-    left: 10%;
+    left: 8%;
     top: 84%;
     font-size: small;
     font-weight: 200;
@@ -306,7 +317,7 @@ body{
 }
 .Anousheh{
     position: absolute;
-    top: 295%;
+    top: 286%;
     left: 50%;
 }
 
@@ -347,6 +358,7 @@ body{
     font-size: x-large;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+    color: #FFFFFF;
     border: 1px solid white;
     background: none;
 }
@@ -364,12 +376,13 @@ body{
     font-size: x-large;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+    color: #FFFFFF;
     border: 1px solid white;
     background: none;
 }
 .termi{
     position: relative;
-    top: 20%;
+    top: 16%;
     left: 40%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
@@ -380,7 +393,7 @@ body{
 }
 .launch{
     position: relative;
-    top: 20%;
+    top: 16%;
     left: 40%;
     font-weight: 300;
     letter-spacing: 2px;
@@ -391,7 +404,7 @@ body{
 }
 .texto_lauch{
     position: relative;
-    top: 20%;
+    top: 16%;
     left: 40%;    
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
